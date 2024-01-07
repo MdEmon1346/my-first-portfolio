@@ -15,6 +15,9 @@ body {
 }
 .header {
   background-color: #fff8f3;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 /* nav style */
 nav {
@@ -49,10 +52,46 @@ nav a {
   color: #181818;
 } */
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
 }
 .banner .profile-pic {
-  width: 350px;
+  width: 400px;
+}
+.first-msg {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.second-msg {
+  font-size: 65px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.about-me {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  margin: 130px 0;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sec-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
